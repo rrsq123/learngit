@@ -51,3 +51,10 @@ git中有a,b两个文件
 特殊情况：
 	对于上一部操作后悔了，无论是撤销还是其他的，可以利用命令：git reflog查看命令历史，以便确定要回到未来的哪个版本
 	然后使用：git reset --hard commit_id。返回某个命令操作前。
+	
+	
+git中分支：
+	1、git分支任何变动只要没commit，切换到master利用git status 命令都是可以查看其状态（是待追踪，还是待commit）的，跟在分支中用git status查看是一样的,
+	但是查看不到变动的具体内容；
+	2、但若是分支的改动commit后，主分支就看不到变动状态了。当然还是查看不到具体的变动内容。变动的内容需要将分支合并到master后，master中才能看得到。
+	3、合并分支出现冲突时，先找到冲突文件内容，手动修改，然后add，然后commit，最后再merge或者git stash pop
