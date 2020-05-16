@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
 你好中国（bug修复后）
 你好世界
 hello big(oter) world
+big world
