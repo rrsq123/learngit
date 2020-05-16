@@ -1,0 +1,4 @@
+验证dev分支中创建文件，add后但未commit，
+而在master中commit后，此文件就从dev分支消失，而只存在于master中了
+
+若是在dev分支中创建文件并add和commit后，maste中什么情况？
