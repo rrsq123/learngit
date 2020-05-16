@@ -1,4 +1,4 @@
 <<<<<<< Updated upstream
-你好zhong guo
+你好中国（bug修复后）
 你好世界
 hello world
